@@ -12,9 +12,22 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
+        addChild(shoppingCart)
+        view.addSubview(shoppingCart.view)
     }
-
-
+    
+    private lazy var shoppingCart: ShoppingCartController = {
+        let cart = ShoppingCartController()
+        return cart
+    }()
+    
+    private lazy var shopping: ShoppoingController = {
+        let cart = ShoppoingController()
+        return cart
+    }()
+    private let cellId = "CellId"
+    private var list = [String]()
+    
 }
 

@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		180C571E2406230900C015A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C571D2406230900C015A3 /* AppDelegate.swift */; };
-		180C57202406230900C015A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C571F2406230900C015A3 /* SceneDelegate.swift */; };
 		180C57222406230900C015A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C57212406230900C015A3 /* ViewController.swift */; };
 		180C57252406230900C015A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180C57232406230900C015A3 /* Main.storyboard */; };
 		180C57272406230B00C015A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180C57262406230B00C015A3 /* Assets.xcassets */; };
 		180C572A2406230B00C015A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180C57282406230B00C015A3 /* LaunchScreen.storyboard */; };
+		180C5733240628D700C015A3 /* ZXOrderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C5732240628D700C015A3 /* ZXOrderMenu.swift */; };
+		180C573524062BE800C015A3 /* ShoppingCartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C573424062BE800C015A3 /* ShoppingCartController.swift */; };
+		180C573924062CE700C015A3 /* ShoppingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C573824062CE700C015A3 /* ShoppingBar.swift */; };
+		180C573B24062D8800C015A3 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C573A24062D8800C015A3 /* Define.swift */; };
+		180C573E24063F0400C015A3 /* ShoppingBarMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C573D24063F0400C015A3 /* ShoppingBarMiddleView.swift */; };
+		180C574124064B4200C015A3 /* ShoppoingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C574024064B4200C015A3 /* ShoppoingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		180C571A2406230900C015A3 /* ZXOrderMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXOrderMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		180C571D2406230900C015A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		180C571F2406230900C015A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		180C57212406230900C015A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		180C57242406230900C015A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		180C57262406230B00C015A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180C57292406230B00C015A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180C572B2406230B00C015A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180C5732240628D700C015A3 /* ZXOrderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXOrderMenu.swift; sourceTree = "<group>"; };
+		180C573424062BE800C015A3 /* ShoppingCartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartController.swift; sourceTree = "<group>"; };
+		180C573824062CE700C015A3 /* ShoppingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingBar.swift; sourceTree = "<group>"; };
+		180C573A24062D8800C015A3 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		180C573D24063F0400C015A3 /* ShoppingBarMiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingBarMiddleView.swift; sourceTree = "<group>"; };
+		180C574024064B4200C015A3 /* ShoppoingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppoingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +66,8 @@
 		180C571C2406230900C015A3 /* ZXOrderMenu */ = {
 			isa = PBXGroup;
 			children = (
+				180C57312406268900C015A3 /* ZXOrderMenu */,
 				180C571D2406230900C015A3 /* AppDelegate.swift */,
-				180C571F2406230900C015A3 /* SceneDelegate.swift */,
 				180C57212406230900C015A3 /* ViewController.swift */,
 				180C57232406230900C015A3 /* Main.storyboard */,
 				180C57262406230B00C015A3 /* Assets.xcassets */,
@@ -65,6 +75,51 @@
 				180C572B2406230B00C015A3 /* Info.plist */,
 			);
 			path = ZXOrderMenu;
+			sourceTree = "<group>";
+		};
+		180C57312406268900C015A3 /* ZXOrderMenu */ = {
+			isa = PBXGroup;
+			children = (
+				180C573F24064B2100C015A3 /* New Group */,
+				180C573724062CA000C015A3 /* OrderMenu */,
+				180C573624062C9100C015A3 /* ShoppingCart */,
+				180C573A24062D8800C015A3 /* Define.swift */,
+			);
+			path = ZXOrderMenu;
+			sourceTree = "<group>";
+		};
+		180C573624062C9100C015A3 /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				180C573424062BE800C015A3 /* ShoppingCartController.swift */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		180C573724062CA000C015A3 /* OrderMenu */ = {
+			isa = PBXGroup;
+			children = (
+				180C573C24063ED900C015A3 /* ShoppingBar */,
+				180C5732240628D700C015A3 /* ZXOrderMenu.swift */,
+				180C574024064B4200C015A3 /* ShoppoingController.swift */,
+			);
+			path = OrderMenu;
+			sourceTree = "<group>";
+		};
+		180C573C24063ED900C015A3 /* ShoppingBar */ = {
+			isa = PBXGroup;
+			children = (
+				180C573824062CE700C015A3 /* ShoppingBar.swift */,
+				180C573D24063F0400C015A3 /* ShoppingBarMiddleView.swift */,
+			);
+			path = ShoppingBar;
+			sourceTree = "<group>";
+		};
+		180C573F24064B2100C015A3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180C573E24063F0400C015A3 /* ShoppingBarMiddleView.swift in Sources */,
+				180C573924062CE700C015A3 /* ShoppingBar.swift in Sources */,
 				180C57222406230900C015A3 /* ViewController.swift in Sources */,
+				180C573524062BE800C015A3 /* ShoppingCartController.swift in Sources */,
 				180C571E2406230900C015A3 /* AppDelegate.swift in Sources */,
-				180C57202406230900C015A3 /* SceneDelegate.swift in Sources */,
+				180C573B24062D8800C015A3 /* Define.swift in Sources */,
+				180C5733240628D700C015A3 /* ZXOrderMenu.swift in Sources */,
+				180C574124064B4200C015A3 /* ShoppoingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +347,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W6BQ9D27A;
 				INFOPLIST_FILE = ZXOrderMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8W6BQ9D27A;
 				INFOPLIST_FILE = ZXOrderMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
