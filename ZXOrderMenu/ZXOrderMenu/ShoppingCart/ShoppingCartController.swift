@@ -95,7 +95,7 @@ class ShoppingCartController: UIViewController {
             listTopConstranint = NSLayoutConstraint(item: listView,
                                attribute: .top,
                                relatedBy: .equal,
-                               toItem: view.safeAreaLayoutGuide,
+                               toItem: view,
                                attribute: .bottom,
                                multiplier: 1,
                                constant: 0)

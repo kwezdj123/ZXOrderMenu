@@ -12,3 +12,9 @@ let SCREENWIDTH = UIScreen.main.bounds.width
 let SCREENHEIGHT = UIScreen.main.bounds.height
 let safeAreaBottom: CGFloat = SCREENHEIGHT >= 812 ? 34 : 0
 
+let statusBarHeight = UIApplication.shared.statusBarFrame.size.height
+let navBarHeight: CGFloat = 44
+
+var navigationHeight: CGFloat {
+    return statusBarHeight + navBarHeight
+}
